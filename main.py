@@ -13,6 +13,12 @@ def multiply(x, y):
     """Return the product of x and y."""
     return x * y
 
+def divide(x, y):
+    """Return the quotient of x and y. Handle division by zero."""
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
+
 
 
 
