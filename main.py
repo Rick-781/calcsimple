@@ -1,5 +1,10 @@
 import math
 
+def add(x, y):
+    """Return the sum of x and y."""
+    return x + y
+
+
 
 def calculator():
     """Run the calculator."""
