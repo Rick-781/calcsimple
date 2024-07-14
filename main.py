@@ -35,6 +35,12 @@ def square_root(x):
     return math.sqrt(x)
 
 
+def factorial(x):
+    """Return the factorial of x. Handle negative input."""
+    if x < 0:
+        return "Error! Factorial is not defined for negative numbers."
+    return math.factorial(x)
+
 
 
 def calculator():
