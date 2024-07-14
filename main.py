@@ -41,6 +41,18 @@ def factorial(x):
         return "Error! Factorial is not defined for negative numbers."
     return math.factorial(x)
 
+def display_menu():
+    """Display the calculator menu."""
+    print("Select operation:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    print("5. Exponentiate")
+    print("6. Modulus")
+    print("7. Square Root")
+    print("8. Factorial")
+    print("9. Exit")
 
 
 def calculator():
