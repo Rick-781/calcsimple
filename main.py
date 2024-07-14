@@ -19,6 +19,9 @@ def divide(x, y):
         return "Error! Division by zero."
     return x / y
 
+def exponentiate(x, y):
+    """Return x raised to the power of y."""
+    return x ** y
 
 
 
