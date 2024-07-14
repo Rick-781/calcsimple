@@ -23,6 +23,10 @@ def exponentiate(x, y):
     """Return x raised to the power of y."""
     return x ** y
 
+def modulus(x, y):
+    """Return the modulus of x and y."""
+    return x % y
+
 
 
 def calculator():
