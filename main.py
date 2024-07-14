@@ -28,6 +28,14 @@ def modulus(x, y):
     return x % y
 
 
+def square_root(x):
+    """Return the square root of x. Handle negative input."""
+    if x < 0:
+        return "Error! Cannot take the square root of a negative number."
+    return math.sqrt(x)
+
+
+
 
 def calculator():
     """Run the calculator."""
